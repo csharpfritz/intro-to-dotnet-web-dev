@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32414.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConnectFour", "ConnectFour\ConnectFour.csproj", "{A39A8B5F-BB76-48CD-BA4E-F0733604EB79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConnectFour", "Test.ConnectFour\TestConnectFour.csproj", "{1C160384-5FC1-4A9C-BC65-5BE01B7CF3B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConnectFour", "Test.ConnectFour\TestConnectFour.csproj", "{1C160384-5FC1-4A9C-BC65-5BE01B7CF3B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectFour.Maui", "ConnectFour.Maui\ConnectFour.Maui.csproj", "{E783ED5E-1510-4A8F-B7EE-9CB61AAA3666}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,12 @@ Global
 		{1C160384-5FC1-4A9C-BC65-5BE01B7CF3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C160384-5FC1-4A9C-BC65-5BE01B7CF3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C160384-5FC1-4A9C-BC65-5BE01B7CF3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E783ED5E-1510-4A8F-B7EE-9CB61AAA3666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E783ED5E-1510-4A8F-B7EE-9CB61AAA3666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E783ED5E-1510-4A8F-B7EE-9CB61AAA3666}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E783ED5E-1510-4A8F-B7EE-9CB61AAA3666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E783ED5E-1510-4A8F-B7EE-9CB61AAA3666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E783ED5E-1510-4A8F-B7EE-9CB61AAA3666}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
