@@ -13,6 +13,8 @@ public class GameState
 	/// </summary>
 	public byte PlayerTurn = 1;
 
+	public byte CurrentTurn { get; private set; } = 0;
+
 	public static readonly List<byte[]> WinningPlaces = new();
 
 	public static void CalculateWinningPlaces() 
@@ -154,6 +156,7 @@ public class GameState
 		TheBoard[landingSpot] = PlayerTurn;
 
 		PlayerTurn = PlayerTurn == 1 ? (byte)2 : (byte)1;
+		CurrentTurn++;
 
 		return landingSpot;
 

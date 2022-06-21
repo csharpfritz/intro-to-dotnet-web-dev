@@ -139,42 +139,42 @@ span.container {
 }
 
 @keyframes drop1 {
-    75%, 90%, 97%, 100% { transform:translateY(5.2em); }
+    75%, 90%, 97%, 100% { transform:translateY(5.27em); }
     80% { transform:translateY(4.4em); }  /*-15% */
     95% { transform:translateY(4.8em); } /* -7% */
     99% { transform:translateY(5.0em); } /* -3% */
 }
 
 @keyframes drop2 {
-    75%, 90%, 97%, 100% { transform:translateY(9.2em); }
+    75%, 90%, 97%, 100% { transform:translateY(9.27em); }
     80% { transform:translateY(7.8em); }  /*-15% */
     95% { transform:translateY(8.6em); } /* -7% */
     99% { transform:translateY(8.9em); } /* -3% */
 }
 
 @keyframes drop3 {
-    75%, 90%, 97%, 100% { transform:translateY(13.2em); }
+    75%, 90%, 97%, 100% { transform:translateY(13.27em); }
     80% { transform:translateY(11.2em); }  /*-15% */
     95% { transform:translateY(12.3em); } /* -7% */
     99% { transform:translateY(12.8em); } /* -3% */
 }
 
 @keyframes drop4 {
-    75%, 90%, 97%, 100% { transform:translateY(17.2em); }
+    75%, 90%, 97%, 100% { transform:translateY(17.27em); }
     80% { transform:translateY(14.6em); }  /*-15% */
     95% { transform:translateY(16em); } /* -7% */
     99% { transform:translateY(16.7em); } /* -3% */
 }
 
 @keyframes drop5 {
-    75%, 90%, 97%, 100% { transform:translateY(21.2em); }
+    75%, 90%, 97%, 100% { transform:translateY(21.27em); }
     80% { transform:translateY(18em); }  /*-15% */
     95% { transform:translateY(19.7em); } /* -7% */
     99% { transform:translateY(20.5em); } /* -3% */
 }
 
 @keyframes drop6 {
-    75%, 90%, 97%, 100% { transform:translateY(25.2em); }
+    75%, 90%, 97%, 100% { transform:translateY(25.27em); }
     80% { transform:translateY(21.4em); }
     95% { transform:translateY(23.4em); }
     99% { transform:translateY(24.4em); }
